@@ -4,13 +4,6 @@
 
 (deftest next-location-tests
   (testing "that the next location of the elves is correct"
-    ;; (is (let [current-recipes [1 1 4 5 3 2]
-    ;;           ;; [(1) [1] 4 5 3 2]
-    ;;           curr-elf-pos [0 1]
-    ;;           next-pos [1 2]]
-    ;;       (= next-pos (sut/next-location
-    ;;                    current-recipes
-    ;;                    curr-elf-pos))))
     (is (let [ ;; recipes [2 1 3]
               ;; locations [0 1]
               jump 3
