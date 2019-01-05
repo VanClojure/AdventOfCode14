@@ -2,8 +2,6 @@
   (:require [clojure.test :refer :all]
             [aoc14.core :as c]))
 
-
-
 (deftest next-game-state-tests
   (testing "progress game state correctly"
     (is (let [curr-game-state {:recipes [3 7]
