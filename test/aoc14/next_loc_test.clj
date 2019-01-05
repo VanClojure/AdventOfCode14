@@ -17,4 +17,11 @@
               recipe-length 4
               curr-loc 0
               a-new-loc 0]
+          (= a-new-loc (sut/one-elf-next-loc recipe-length curr-loc jump))))
+    (is (let [ ;; recipes [3. 7, 1 0]
+              ;; locations [0 1]
+              jump 8
+              recipe-length 4
+              curr-loc 1
+              a-new-loc 1]
           (= a-new-loc (sut/one-elf-next-loc recipe-length curr-loc jump))))))
