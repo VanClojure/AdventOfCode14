@@ -1,0 +1,19 @@
+* "next-recipes" calculate the next set of recipe values either a
+single or double digit number.  in: vector of single digit
+integers out: vector of single digit number of length +1 or +2
+Justin&Aaron
+
+
+* "next-location" find next recipes: in: vector of ints, a two
+tuple where the int values are the current location of the elves
+out: two tuple of the new location of the elves
+Ryan & Peter
+
+
+* "finished?"??? are we done yet fn.  given an input seed and a
+current state, determine if we are done yet or not if we are
+done, return the final 10 digits if we are not done return nil
+
+
+* "next-state" a function that takes current state and returns
+  next state
