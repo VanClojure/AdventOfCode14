@@ -1,10 +1,11 @@
 # aoc14
 
-A Clojure library designed to ... well, that part is up to you.
+For https://adventofcode.com/2018/day/14
 
 ## Usage
 
-FIXME
+To run -main function with any parameters, invoke:
+clj -m aoc14.core 
 
 ## License
 
